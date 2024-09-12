@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+} 
+
+section h2{
+     display: block;
+     padding-top:100px ;
+     
+}
+section h1{
+    display: block;
+    padding-top: 20px;
+    font-size: 3rem;
+
+}
+section p{
+    display: block;
+    padding: 20px;
+
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100px;
+
+}
+
+.box {
+    width: 190px;
+    height: 210px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#box1{
+    background-image: url(image-1.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+#box2{
+    background-image: url(image-2.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+#box3{
+    background-image: url(image-3.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+#box4{
+    background-image: url(image-4.jpeg);
+    background-size: cover;
+    background-position: top;
+}
