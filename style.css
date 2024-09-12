@@ -57,6 +57,7 @@ section p{
 
 @media (min-width: 375px){
     box {
+        display: block;
         width: 100%;
         height: 210px;
         margin: 10px;
