@@ -23,36 +23,45 @@ section p{
 .flexbox{
     display: flex;
     justify-content: center;
-    flex-basis: 100px;
 
 }
 
 .box {
-    width: 190px;
-    height: 210px;
+    width: 200px;
+    height: 220px;
     margin: 10px;
     border-radius: 15px;
+    
 }
+.box h2{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
 
 #box1{
     background-image: url(image-1.jpeg);
     background-size: cover;
-    background-position: top;
-}
+    background-position: center;
+
+    }
+
 #box2{
     background-image: url(image-2.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
+
 }
 #box3{
     background-image: url(image-3.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 #box4{
     background-image: url(image-4.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 @media (min-width: 375px){
